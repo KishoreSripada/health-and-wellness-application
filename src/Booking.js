@@ -8,10 +8,10 @@ function Booking({ loggedIn }) {
   useEffect(() => {
     // Hardcoded class schedule with time slots
     setClasses([
-      { id: 1, name: 'Yoga', date: '2025-04-26', time: '07:30 AM', trainer: 'Sharon', status: 'Available' },
-      { id: 2, name: 'Boxing', date: '2025-04-26', time: '07:50 AM', trainer: 'Sharon', status: 'Available' },
-      { id: 3, name: 'Zumba', date: '2025-04-26', time: '08:30 AM', trainer: 'Keith', status: 'Fully Booked' },
-      { id: 4, name: 'Spin Class', date: '2025-04-27', time: '09:00 AM', trainer: 'Di', status: 'Available' },
+      { id: 1, name: 'Yoga', date: '2025-04-26', time: '07:30 AM', trainer: 'Trainer 1', status: 'Available' },
+      { id: 2, name: 'Boxing', date: '2025-04-26', time: '07:50 AM', trainer: 'Trainer 2', status: 'Available' },
+      { id: 3, name: 'Zumba', date: '2025-04-26', time: '08:30 AM', trainer: 'Trainer 3', status: 'Fully Booked' },
+      { id: 4, name: 'Spin Class', date: '2025-04-27', time: '09:00 AM', trainer: 'Trainer 4', status: 'Available' },
     ]);
 
     // Load booked classes from localStorage if any
